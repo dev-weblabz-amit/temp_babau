@@ -42,7 +42,24 @@
             {
                 text-decoration: none;
                 color:  antiquewhite;
-            } .text-center{
+            }
+            .slider_img
+            {
+                width: 100%;
+                min-height: 449px;
+                max-height: 450px;
+            }
+            .card-img-top
+            {
+                width: 100%;
+                min-height: 180px;
+                max-height: 181px;
+            }
+            .card
+            {
+                margin-bottom: 25px;
+            }
+            .text-center{
                 font-weight: bold;
                 font-family: 'Courier New', Courier, monospace;
             }
@@ -50,7 +67,7 @@
     </head>
     <body>
 
-        <div class="row m-0 color_data" >
+        <div class="row color_data m-0" >
             <div class="col-sm-4 px-5">
                 <img  src="logo/bbu1.png"  class="img-responsive" />
             </div>
@@ -72,9 +89,131 @@
             </div>
             <hr/>
         </div>
+
+
+             <!-- Here code for slider start coding -->
+
+             <div id="carouselExampleDark" data-bs-ride="carousel" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="logo/rudra.jpg" class="d-block w-100 slider_img" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <!-- <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p> -->
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="logo/mar.jpg" class="d-block w-100 slider_img" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <!-- <h5> Marriage Puja</h5>
+                      <p>Some representative placeholder content for the second slide.</p> -->
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="logo/sat.jpg" class="d-block w-100 slider_img" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <!-- <h5>Satyanarayan Puja</h5>
+                      <p>Some representative placeholder content for the third slide.</p> -->
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            <!-- Here code for slider end coding-->
+
+
+
+            <!-- Here Section start of Popular Pujas -->
+
+              <div class="row m-0 mt-2   p-4   color_data">
+                <div class="col-sm-12 mx-auto mb-2">
+                    <center class="h3"><u>Popular Pujas</u> </center>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" >
+                        <img src="logo/rudra.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-center">Rudrabhishek Puja</p>
+                        </div>
+                      </div>
+                   
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" >
+                        <img src="logo/sat.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-center">Satyanarayan Puja</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" >
+                        <img src="logo/mar.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-center">Marriage Puja</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <img src="logo/navratri.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-center">Navratri Puja</p>
+                        </div>
+                      </div>
+                </div>
+                    <div class="col-sm-3">
+                        <div class="card" >
+                            <img src="logo/garhparvesh-pooja.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <p class="card-text text-center">Griha Pravesh Puja</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card" >
+                            <img src="logo/ganesh.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <p class="card-text text-center">Ganesh Chaturthi Puja</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card" >
+                            <img src="logo/bhoomi.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <p class="card-text text-center">Bhoomi Puja                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card" >
+                            <img src="logo/maha.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <p class="card-text text-center">Mahalaxmi Puja  </p>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+
+
+            <!-- Here Section end of Popular Pujas -->
        
 
-        <div class="row m-0 mt-2  color_data p-2">
+        <div class="row m-0 mt-2 color_data p-2">
                 <div class="col-sm-3 px-5">
                     <img src="logo/bbu1.png" class="footer_img" />
                 </div>
@@ -97,15 +236,18 @@
                   
                 </div>
         </div>
-        <div class="row m-0 mt-1 bg-dark mx-auto">
-            <div class="col-sm-8 p-2 text-center text-light fw-bold">
+
+   
+
+        <div class="row mt-1 bg-dark mx-auto">
+            <div class="col-sm-6 p-2 text-center text-light fw-bold">
                 <span><span class="fa fa-phone fa-spin"> </span> Call Now </span> <a class="anker_tag" href="tel:+919984664645">+91 9984664645</a>
 
                 <a class="anker_tag" href="tel:+916306012822">+91 6306012822</a>
                 <a class="anker_tag" href="tel:+918874651423">+91 8874651423</a>
 
             </div>
-            <div class="col-sm-4 p-2 text-center text-light fw-bold">Babau Pandit Sajai © Copyright 2025.All rights reserved.</div>
+            <div class="col-sm-6 p-2 text-center text-light fw-bold">Babau Pandit Sajai © Copyright 2025.All rights reserved.</div>
         </div>
 
     </body>
